@@ -1,9 +1,9 @@
 package resource
 
 import (
-	. "github.com/bigbackboom/testGoa/design/media"
 	. "github.com/goadesign/goa/design"
 	. "github.com/goadesign/goa/design/apidsl"
+	. "github.com/testGoa/design/media"
 )
 
 // /actionsの定義をする

@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/bigbackboom/testGoa/app"
 	"github.com/goadesign/goa"
+	"github.com/testGoa/app"
 )
 
 // ActionController implements the action resource.
@@ -20,11 +20,8 @@ func (c *ActionController) Ping(ctx *app.PingActionContext) error {
 	// ActionController_Ping: start_implement
 
 	// Put your logic here
-	message := "pong"
 
 	res := &app.Hello{}
-	res.ID = 0
-	res.Message = message
 	return ctx.OK(res)
 	// ActionController_Ping: end_implement
 }

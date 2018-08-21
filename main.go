@@ -1,11 +1,11 @@
-//go:generate goagen bootstrap -d github.com/bigbackboom/testGoa/design
+//go:generate goagen bootstrap -d github.com/testGoa/design
 
 package main
 
 import (
-	"github.com/bigbackboom/testGoa/app"
 	"github.com/goadesign/goa"
 	"github.com/goadesign/goa/middleware"
+	"github.com/testGoa/app"
 )
 
 func main() {

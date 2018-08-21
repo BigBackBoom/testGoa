@@ -4,8 +4,8 @@
 //
 // Command:
 // $ goagen
-// --design=github.com/bigbackboom/testGoa/design
-// --out=$(GOPATH)/src/github.com/bigbackboom/testGoa
+// --design=github.com/testGoa/design
+// --out=$(GOPATH)/src/github.com/testGoa
 // --version=v1.3.1
 
 package test
@@ -14,9 +14,9 @@ import (
 	"bytes"
 	"context"
 	"fmt"
-	"github.com/bigbackboom/testGoa/app"
 	"github.com/goadesign/goa"
 	"github.com/goadesign/goa/goatest"
+	"github.com/testGoa/app"
 	"io"
 	"log"
 	"net/http"

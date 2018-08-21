@@ -4,8 +4,8 @@
 //
 // Command:
 // $ goagen
-// --design=github.com/bigbackboom/testGoa/design
-// --out=$(GOPATH)/src/github.com/bigbackboom/testGoa
+// --design=github.com/testGoa/design
+// --out=$(GOPATH)/src/github.com/testGoa
 // --version=v1.3.1
 
 package cli
@@ -14,11 +14,11 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	"github.com/bigbackboom/testGoa/client"
 	"github.com/goadesign/goa"
 	goaclient "github.com/goadesign/goa/client"
 	uuid "github.com/goadesign/goa/uuid"
 	"github.com/spf13/cobra"
+	"github.com/testGoa/client"
 	"log"
 	"os"
 	"path"

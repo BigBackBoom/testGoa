@@ -67,7 +67,7 @@ info:
     email: kikuchik@istyle.co.jp
     name: bigbackboom
   description: goaのサンプルです
-  title: bigbackboom/goa-simple-sample
+  title: goa-simple-sample
   version: ""
 paths:
   /api/v1/action/ping:

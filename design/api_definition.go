@@ -1,13 +1,13 @@
 package design
 
 import (
-	_ "github.com/bigbackboom/testGoa/design/resource"
 	. "github.com/goadesign/goa/design/apidsl"
+	_ "github.com/testGoa/design/resource"
 )
 
 var _ = API("goa simple sample", func() {
 	// APIのタイトル
-	Title("bigbackboom/goa-simple-sample")
+	Title("goa-simple-sample")
 	// APIの説明
 	Description("goaのサンプルです")
 	// 作成者へのコンタクト情報

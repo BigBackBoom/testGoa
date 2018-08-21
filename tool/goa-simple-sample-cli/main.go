@@ -2,10 +2,10 @@ package main
 
 import (
 	"fmt"
-	"github.com/bigbackboom/testGoa/client"
-	"github.com/bigbackboom/testGoa/tool/cli"
 	goaclient "github.com/goadesign/goa/client"
 	"github.com/spf13/cobra"
+	"github.com/testGoa/client"
+	"github.com/testGoa/tool/cli"
 	"net/http"
 	"os"
 	"time"
